@@ -118,8 +118,8 @@ export default function HorizontalNonLinearStepper() {
                                 Back
                             </Button>
                             <Button
-                                variant="contained"
-                                color="primary"
+                                variant='contained'
+                                color='primary'
                                 onClick={handleNext}
                                 className={classes.button}
                             >
@@ -127,11 +127,11 @@ export default function HorizontalNonLinearStepper() {
                             </Button>
                             {activeStep !== steps.length &&
                             (completed[activeStep] ? (
-                                <Typography variant="caption" className={classes.completed}>
+                                <Typography variant='caption' className={classes.completed}>
                                     Step {activeStep + 1} already completed
                                 </Typography>
                             ) : (
-                                <Button variant="contained" color="primary" onClick={handleComplete}>
+                                <Button variant='contained' color='primary' onClick={handleComplete}>
                                     {completedSteps() === totalSteps() - 1 ? 'Finish' : 'Complete Step'}
                                 </Button>
                             ))}

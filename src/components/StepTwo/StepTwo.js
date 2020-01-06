@@ -1,63 +1,35 @@
-
 import React from 'react';
-import {Checkbox, Select} from 'semantic-ui-react';
+import './StepTwo.css';
+import StepTwoForm from './StepTwoForm';
+import {validate} from './StepTwoForm';
+
+
 class StepTwo extends React.Component {
     constructor(props) {
         super(props);
         this.isValidated = this.isValidated.bind(this);
     }
+
     isValidated() {
-        debugger;
-        console.log('validated');
-        return true;
+        const {stepTwoFormValues} = this.props;
+        if(stepTwoFormValues) {
+            const errors = validate(stepTwoFormValues.values);
+            if(errors.noValues) {
+                return false;
+            } else {
+                return stepTwoFormValues.values.checkbox1 || stepTwoFormValues.values.checkbox2 || stepTwoFormValues.values.none ||stepTwoFormValues.values.other
+            }
+        }
     }
+
     render() {
-        const firstOptions = [
-            { key: 'A', value: 'A', text: 'A' },
-            { key: 'B', value: 'B', text: 'B' },
-            { key: 'C', value: 'C', text: 'C' }
-        ];
         return (
-            <div className="StepTwo">
-                <div className='input-form-field'>
-                    <p className={'input-form-validation'}>Must display another select - PENDING</p>
-                    <Select placeholder='Select your country' options={firstOptions}/>
-                </div>
-
+            <div className='StepTwo'>
+                <StepTwoForm />
             </div>
-
         );
     }
+
 }
 
 export default StepTwo;
-
-/*
-import React from 'react';
-import {Checkbox, Input} from 'semantic-ui-react';
-
-function StepTwo() {
-    return (
-        <div className="StepTwo">
-            <div className='input-form-field'>
-                <p className={'input-form-validation'}>Must select One</p>
-
-                <Checkbox label='CheckBox 1'/>
-            </div>
-            <div className='input-form-field'>
-                <Checkbox label='CheckBox 2'/>
-            </div>
-
-            <div className='input-form-field'>
-                <Checkbox label='Other'/>
-                <p className={'input-form-validation'}>Input field should appear- PENDING</p>
-            </div>
-        </div>
-
-
-
-    );
-}
-
-export default StepTwo;
-*/

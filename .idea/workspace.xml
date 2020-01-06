@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e733204-b2bd-4d20-a515-ae20b80f3480" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StepOne/StepOne.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StepOne/StepOne.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StepOne/StepOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StepOne/StepOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StepThree/StepThree.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StepThree/StepThree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StepThree/StepThree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StepThree/StepThree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StepTwo/StepTwo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StepTwo/StepTwo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StepTwo/StepTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StepTwo/StepTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VxxsNbbkXBKsDHlWlsdoWY0SzM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e733204-b2bd-4d20-a515-ae20b80f3480" name="Default Changelist" comment="" />
+      <created>1578208752567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578208752567</updated>
+      <workItem from="1578208754544" duration="1581000" />
+      <workItem from="1578215465621" duration="2077000" />
+      <workItem from="1578260502287" duration="919000" />
+      <workItem from="1578297331544" duration="498000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="289" y="43" key="CommitChangelistDialog2" timestamp="1578297923263">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="289" y="43" key="CommitChangelistDialog2/0.23.1440.814@0.23.1440.814" timestamp="1578297923263" />
+    <state x="120" y="143" width="1200" height="572" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578260979305">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="120" y="143" width="1200" height="572" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.811@0.23.1440.811" timestamp="1578260979305" />
+    <state x="375" y="202" width="689" height="472" key="find.popup" timestamp="1578297739529">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="375" y="202" width="689" height="472" key="find.popup/0.23.1440.814@0.23.1440.814" timestamp="1578297739529" />
+  </component>
+</project>

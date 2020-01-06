@@ -1,0 +1,68 @@
+.Home {
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.input-form-field {
+    /* padding: 30px 60px 10px 70px; */
+    font-size: large;
+    color: #3b5998;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.input-form-validation {
+    color: red;
+    font-weight: 500;
+    padding-left: 15px;
+    font-size: medium;
+    padding-bottom: 10px;
+    /*padding: 0px 0px 10px 70px;*/
+
+}
+
+.row {
+    display: flex;
+    padding-bottom: 10px;
+
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    width: 450px;
+}
+
+.column-label {
+    flex: 50%;
+    padding: 10px;
+    width: 150px;
+}
+
+.review-column {
+    flex: 50%;
+    padding: 10px;
+    font-size: large;
+}
+
+.other-checkbox {
+    margin-bottom: 20px;
+}
+
+.data-banner {
+    font-size: 20px;
+    height: 30px;
+    padding-bottom: 20px;
+}
+.inputFields {
+    font-size: medium;
+    height: 30px;
+    border-radius: 4px;
+    border-color: #c0c0c0;
+    width: 180px;
+
+}
+.btn-save{
+    margin-left: 20px;
+}

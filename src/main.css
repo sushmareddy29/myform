@@ -1,6 +1,7 @@
 ol.progtrckr {
   list-style-type: none;
   padding: 0;
+  padding-bottom: 30px;
 }
 
 ol.progtrckr li {
@@ -12,6 +13,7 @@ ol.progtrckr li {
 
 ol.progtrckr li span {
   padding: 0 1.5rem;
+  font-size: x-large;
 }
 
 @media (max-width: 650px) {
@@ -21,7 +23,7 @@ ol.progtrckr li span {
 }
 .progtrckr em {
   display: none;
-  font-weight: 700;
+  font-weight: 900;
   padding-left: 1rem;
 }
 
